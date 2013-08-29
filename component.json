@@ -1,10 +1,12 @@
 {
-  "name": "typeahead.js",
+  "name": "typeahead",
+  "repo": "ricardobeat/typeahead",
   "version": "0.9.3",
-  "main": [
+  "main": ["dist/typeahead.js"],
+  "scripts": [
     "dist/typeahead.js"
   ],
   "dependencies": {
-    "jquery": "~1.9"
+    "components/jquery": "1.9"
   }
 }
